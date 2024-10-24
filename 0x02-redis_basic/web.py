@@ -2,9 +2,9 @@
 """
 web cache and tracker
 """
+from functools import wraps
 import requests
 import redis
-from functools import wraps
 
 store = redis.Redis()
 
