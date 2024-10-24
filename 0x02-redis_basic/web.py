@@ -47,7 +47,7 @@ def url_access_count(method):
 def get_page(url: str) -> str:
     """obtain the HTML content of a particular"""
     results = requests.get(url)
-    return results.text
+    # return results.text
 
 
 if __name__ == "__main__":
